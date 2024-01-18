@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+void P(char a[])
+{
+	printf("%c %c %c %c\n", a[0], a[1], a[2], a[3]);
+}
+int main()
+{
+	char a[5] = { 0 };
+	gets(a);
+	P(a);
+	return 0;
+}
